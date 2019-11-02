@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.138
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{841CCE5C-318B-466E-9FC1-36BD1D546987}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DD575203-064E-4D70-B85D-0FD7B03EC4C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KubePipeline.Agent", "src\KubePipeline.Agent\KubePipeline.Agent.csproj", "{CECC1F9E-8F2B-4B34-899E-A55667CF71A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CECC1F9E-8F2B-4B34-899E-A55667CF71A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CECC1F9E-8F2B-4B34-899E-A55667CF71A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CECC1F9E-8F2B-4B34-899E-A55667CF71A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CECC1F9E-8F2B-4B34-899E-A55667CF71A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CECC1F9E-8F2B-4B34-899E-A55667CF71A2} = {841CCE5C-318B-466E-9FC1-36BD1D546987}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFD9BE69-52D9-4299-A533-B9B2869CA8B8}
+	EndGlobalSection
+EndGlobal
